@@ -248,6 +248,8 @@ export default {
       this.dialogType = "edit";
       this.title = "修改分类";
       this.dialogVisible = true;
+      // this.category.name = data.name;
+      // this.catId = data.catId;
 
       //发送请求获取当前节点最新的数据
       this.$http({
